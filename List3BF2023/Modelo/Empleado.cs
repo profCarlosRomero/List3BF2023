@@ -8,5 +8,7 @@ namespace List3BF2023.Modelo
 {
     class Empleado
     {
+        private string nss;
+        private string nombre;
     }
 }
