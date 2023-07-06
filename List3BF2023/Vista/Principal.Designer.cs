@@ -40,7 +40,7 @@ namespace List3BF2023.Vista
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(82, 332);
+            this.panel1.Size = new System.Drawing.Size(82, 427);
             this.panel1.TabIndex = 0;
             // 
             // btnEmpleado
@@ -52,13 +52,15 @@ namespace List3BF2023.Vista
             this.btnEmpleado.TabIndex = 0;
             this.btnEmpleado.Text = "Empleado";
             this.btnEmpleado.UseVisualStyleBackColor = true;
+            this.btnEmpleado.Click += new System.EventHandler(this.btnEmpleado_Click);
             // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(675, 332);
+            this.ClientSize = new System.Drawing.Size(841, 427);
             this.Controls.Add(this.panel1);
+            this.IsMdiContainer = true;
             this.Name = "Principal";
             this.Text = "Principal";
             this.panel1.ResumeLayout(false);
